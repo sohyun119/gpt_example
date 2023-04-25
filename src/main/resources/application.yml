@@ -16,5 +16,5 @@ spring:
     show-sql: true
     database: mysql
 
-openAPI:
+openAiApi:
   key: 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
