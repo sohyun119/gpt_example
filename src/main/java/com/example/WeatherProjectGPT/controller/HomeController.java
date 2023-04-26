@@ -27,7 +27,7 @@ public class HomeController {
         return "homeView";
     }
 
-    @GetMapping("/chatGPT")
+    @GetMapping("/chatGPT") // 잘 안되는 이유 알아내기
     public ResponseEntity<?> chatGPT(){
 
         OpenAiService service = new OpenAiService(openAiToken);
